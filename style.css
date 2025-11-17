@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/d6/32/ce/d632ceca1e56329813837159c1f405cb.jpg");
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.konteiner {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    margin: 0;
+    background-color: rgb(234, 209, 171);
+    display: inline-block;
+    
+}
+
+nav a {
+    margin-right: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;   
+    margin-top: 30px;
+}
+
+
+
+
+.vasak-tulp {
+    width: 60%;
+}
+
+.gallerii-box {
+    width: 100%;
+    height: 380px;
+    border: 2px solid #3f3434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+}
+
+
+.parem-tulp {
+    margin-top: -9px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    padding-left: 40px;
+}
+
+
+.ikoonid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 0;
+    margin-top: -50px;        
+}
+
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #3f3434;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.maps-box {
+    width: 100%;
+    height: 200px;
+    border: 2px solid  #3f3434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+.info {
+    margin-top: 15px;
+    text-align: center;
+}
